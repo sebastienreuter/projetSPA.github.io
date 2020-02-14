@@ -1,0 +1,304 @@
+body{
+    background-image: url('img/fond.png');
+    background-repeat: no-repeat;
+}
+#nav1{
+    display: flex;
+    justify-content: space-around;
+}
+#nav2{
+    position: fixed;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    top: 50%;
+    letter-spacing: 5px;  
+}
+li{
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    border: 2px solid orange;
+    border-radius: 0px 0px 10px 0px ;
+    padding: 3px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+    
+}
+li:hover{
+   transform: rotate(2deg);
+    
+}
+#titrePrincipal{
+    text-align: center;
+    font-family: cursive;
+    border-bottom: cadetblue;
+    color: cornsilk;
+    font-size: 3em;
+    
+    
+}
+#ligneSousTitre{
+    color: darkcyan;
+    height: 3px;
+    background-color: darkcyan;
+}
+
+#tailleImage{
+    position: absolute;
+    width: 569px;
+    height: 100%;
+    left: 62%;
+    top: 0%;
+    opacity: 54%;
+}
+
+#place1{
+    border-radius:15px;
+    width: 188px;
+    height: 174px;
+    border: 2px solid darkcyan;
+    background-image:url('img/chien1.jpg');
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+#place1:hover{
+  
+    transform: rotate(4deg);
+}
+#place2{
+    border-radius:15px;
+    width: 188px;
+    height: 174px;
+    border: 2px solid darkcyan;
+    background-image:url('img/chien2.jpg');
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+#place2:hover{
+  
+    transform: rotate(4deg);
+}
+#place3{
+    border-radius:15px;
+    width: 188px;
+    height: 174px;
+    border: 2px solid darkcyan;
+    background-image:url('img/chien3.jpg');
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+#place3:hover{
+  
+    transform: rotate(4deg);
+}
+#place4{
+    border-radius:15px;
+    width: 188px;
+    height: 174px;
+    border: 2px solid darkcyan;
+    background-image:url('img/chien4.jpg');
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+#place4:hover{
+  
+    transform: rotate(4deg);
+}
+#place5{
+    border-radius:15px;
+    width: 188px;
+    height: 174px;
+    border: 2px solid darkcyan;
+    background-image:url('img/chien5.jpg');
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+#place5:hover{
+  
+    transform: rotate(4deg);
+}
+#patte{
+    position: absolute;
+    left: 2%;
+    top: 4%;
+}
+#patte2{
+    position: absolute;
+    left: 90%;
+    top: 4%;
+}
+#patte:hover{
+    -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: inherit;
+  animation-fill-mode: inherit;
+  }
+  @-webkit-keyframes rubberBand {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  30% {
+  -webkit-transform: scale3d(1.25, 0.75, 1);
+  transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+  -webkit-transform: scale3d(0.75, 1.25, 1);
+  transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.15, 0.85, 1);
+  transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+  -webkit-transform: scale3d(.95, 1.05, 1);
+  transform: scale3d(.95, 1.05, 1);
+  }
+  75% {
+  -webkit-transform: scale3d(1.05, .95, 1);
+  transform: scale3d(1.05, .95, 1);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes rubberBand {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  30% {
+  -webkit-transform: scale3d(1.25, 0.75, 1);
+  transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+  -webkit-transform: scale3d(0.75, 1.25, 1);
+  transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.15, 0.85, 1);
+  transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+  -webkit-transform: scale3d(.95, 1.05, 1);
+  transform: scale3d(.95, 1.05, 1);
+  }
+  75% {
+  -webkit-transform: scale3d(1.05, .95, 1);
+  transform: scale3d(1.05, .95, 1);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+        } 
+        #patte2:hover{
+            -webkit-animation-name: rubberBand;
+          animation-name: rubberBand;
+          -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+          -webkit-animation-fill-mode: inherit;
+          animation-fill-mode: inherit;
+          }
+          @-webkit-keyframes rubberBand {
+          0% {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+          }
+          30% {
+          -webkit-transform: scale3d(1.25, 0.75, 1);
+          transform: scale3d(1.25, 0.75, 1);
+          }
+          40% {
+          -webkit-transform: scale3d(0.75, 1.25, 1);
+          transform: scale3d(0.75, 1.25, 1);
+          }
+          50% {
+          -webkit-transform: scale3d(1.15, 0.85, 1);
+          transform: scale3d(1.15, 0.85, 1);
+          }
+          65% {
+          -webkit-transform: scale3d(.95, 1.05, 1);
+          transform: scale3d(.95, 1.05, 1);
+          }
+          75% {
+          -webkit-transform: scale3d(1.05, .95, 1);
+          transform: scale3d(1.05, .95, 1);
+          }
+          100% {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+          }
+          }
+          @keyframes rubberBand {
+          0% {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+          }
+          30% {
+          -webkit-transform: scale3d(1.25, 0.75, 1);
+          transform: scale3d(1.25, 0.75, 1);
+          }
+          40% {
+          -webkit-transform: scale3d(0.75, 1.25, 1);
+          transform: scale3d(0.75, 1.25, 1);
+          }
+          50% {
+          -webkit-transform: scale3d(1.15, 0.85, 1);
+          transform: scale3d(1.15, 0.85, 1);
+          }
+          65% {
+          -webkit-transform: scale3d(.95, 1.05, 1);
+          transform: scale3d(.95, 1.05, 1);
+          }
+          75% {
+          -webkit-transform: scale3d(1.05, .95, 1);
+          transform: scale3d(1.05, .95, 1);
+          }
+          100% {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+          }
+                } 
+      ×
+
+#place6{
+    border-radius:15px;
+    width: 188px;
+    height: 174px;
+    border: 2px solid darkcyan;
+    background-image:url('img/chien6.jpg');
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+#place6:hover{
+  
+    transform: rotate(4deg);
+   
+}
+#ligneCarre{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-family: cursive;
+}
+#pageLoi{
+    position: absolute;
+    width: 658px;
+    height: 100%;
+   
+}
